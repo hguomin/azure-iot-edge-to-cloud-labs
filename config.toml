@@ -1,0 +1,40 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Azure IoT Edge to Cloud Hands on Labs"
+theme = "relearn"
+
+defaultContentLanguage = 'zh-cn'
+
+[languages]
+  [languages.en]
+    title = "Azure IoT Edge to Cloud Hands on Labs"
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en-us"
+    landingPageName = "<i class='fas fa-home'></i> Home"
+  [languages.zh-cn]
+    title = "Azure IoT云边动手实验营"
+    weight = 2
+    languageName = "简体中文"
+    contentDir = "content/zh-cn"
+    landingPageName = "<i class='fas fa-home'></i> 主页"
+
+[params]
+  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  description = "Documentation for Hugo Relearn Theme"
+  author = "Sören Weber"
+  showVisitedLinks = true
+  collapsibleMenu = true
+  disableBreadcrumb = false
+  disableInlineCopyToClipBoard = true
+  disableNextPrev = false
+  disableLandingPageButton = false
+  disableLanguageSwitchingButton = false
+  titleSeparator = "::"
+  themeVariant = [ "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  disableSeoHiddenPages = true
+  # this is for the stylesheet generator to allow for interactivity in Mermaid
+  # graphs; you usually will not need it and you should remove this for
+  # security reasons
+  mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
+  additionalContentLanguage = [ "en" ]
