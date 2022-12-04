@@ -15,3 +15,21 @@ weight = 10
     * 前端应用：Javascript。
 ## 2. 开发工具
 
+* 安装Visual Studio Code
+* 安装Visual Studio Code 扩展  
+    在VSCode中同时按下Ctrl+Shift+`打开VSCode的终端窗口，执行以下命令安装所需的扩展：  
+    ```bash
+    code --install-extension ms-azuretools.vscode-azurefunctions vscjava.vscode-java-pack
+    ```
+
+    重启VSCode
+* Azure Functions Core Tools  (Azure Functions本地调试需要)   
+    [链接](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Cjava%2Cportal%2Cbash#v2)
+
+    启动Azure Functions本地调试：  
+    ```
+    func host start
+    ```
+* Maven & JDK 11 
+    下载Maven，右键解压，将解压目录apache-maven-3.8.6拷贝到C:\Program Files目录下，并将bin文件夹路径添加到PATH环境变量（win + R, 输入sysdm.cpl）
+    下载安装JDK11
