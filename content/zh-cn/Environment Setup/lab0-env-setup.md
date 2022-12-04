@@ -14,10 +14,10 @@ weight = 10
     * 服务端应用：Java，基于JDK 11和Spring Boot。
     * 前端应用：Javascript。
 ## 2. 开发工具
-* Maven & JDK 11 
+* Maven & JDK 11 or 17
     下载Maven，右键解压，将解压目录apache-maven-3.8.6拷贝到C:\Program Files目录下，并将bin文件夹路径添加到PATH环境变量（win + R, 输入sysdm.cpl）
-    下载安装JDK11
-    
+    下载安装[JDK](https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.5%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.5_8.msi)
+
 * 安装Visual Studio Code
 * 安装Visual Studio Code 扩展  
     在VSCode中同时按下Ctrl+Shift+`打开VSCode的终端窗口，执行以下命令安装所需的扩展：  
