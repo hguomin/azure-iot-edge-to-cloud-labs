@@ -19,7 +19,8 @@ weight = 10
 * 安装Visual Studio Code 扩展  
     在VSCode中同时按下Ctrl+Shift+`打开VSCode的终端窗口，执行以下命令安装所需的扩展：  
     ```bash
-    code --install-extension ms-azuretools.vscode-azurefunctions vscjava.vscode-java-pack
+    code --install-extension vscjava.vscode-java-pack
+    code --install-extension ms-azuretools.vscode-azurefunctions
     ```
 
     重启VSCode
